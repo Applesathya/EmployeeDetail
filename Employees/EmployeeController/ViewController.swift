@@ -21,6 +21,7 @@ class ViewController: UIViewController, UISearchBarDelegate {
         // Do any additional setup after loading the view.
     }
     func initialSetup() {
+        // made initial setup
         setUpSearchBar()
         if Utility.getFlag(forKey: "isEmpSaved") {
             getEmployees()
